@@ -10,6 +10,7 @@ class BlogsController < ApplicationController
   # GET /blogs/1
   # GET /blogs/1.json
   def show
+    
   end
 
   # GET /blogs/new
@@ -25,6 +26,7 @@ class BlogsController < ApplicationController
 
   # GET /blogs/1/edit
   def edit
+    
   end
 
   # POST /blogs
@@ -54,6 +56,7 @@ class BlogsController < ApplicationController
     end
   end
 
+
   # DELETE /blogs/1
   # DELETE /blogs/1.json
   def destroy
@@ -75,3 +78,5 @@ class BlogsController < ApplicationController
       params.require(:blog).permit(:content)
     end
 end
+
+
